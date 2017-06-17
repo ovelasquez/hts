@@ -1,0 +1,1234 @@
+body,table,tr,td,a {
+	font-family: "arial";
+	font-size: 12px;
+	color: #003366;
+}
+
+.hidePsp {
+	display: none;
+}
+h1 {
+	color: #1F368B;
+	font-size: 2em;
+	font-weight: bold;
+	font-family: Arial, Verdana, Helvetica, Geneva, Swiss, SunSans-Regular;
+	margin-bottom: 1em;
+	margin-top: 0.5em;
+}
+
+a:hover,a:focus {
+	color: #1B3685;
+}
+
+select {
+	margin: 0;
+}
+
+h3 {
+	font-size: 1.5em;
+	line-height: 1;
+	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	color: #336699;
+}
+
+.newIdent h3 {	
+	margin-top: 0;	
+}
+
+h5 {
+	color: #003366;
+}
+
+label {
+	font-weight: normal;
+}
+
+p {
+	margin: 0;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.erreur {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+.blocErreurVel {
+	border-top:1px solid #B2AFC5;
+	padding-bottom:45px;
+	padding-top:45px;
+}
+
+.blocErreurVel  p  { 
+	color: #1f368b; 
+	line-height: 18px; 
+	margin: 0; 
+	padding: 7px 7px 7px 60px; 
+}
+
+.msgErreurVel{ 
+	background-color: #feeaec; 
+	background-image: url("/SCUW/images/attention_picto_jaune.gif"); 
+	background-repeat: no-repeat; 
+	background-position: left top;
+	margin-bottom: 20px;  
+	border: solid 1px #aa2a41
+}
+
+.msgErreurVel img{ 
+	padding-left: 20px;
+}
+
+.error {
+	-moz-border-radius: 8px;
+	background: -moz-linear-gradient(top, #FF9F9F, #FF4F4F);
+	font-weight: bold;
+	color: white;
+	text-shadow: 0px -1px 1px #000, 0px 1px 1px white;
+	-moz-box-shadow: 1px 1px 5px #000;
+	display: none;
+}
+
+.infosLegales {
+	font-size: 10px;
+	color: #999999;
+}
+
+.btn_radio {
+	height: 25px;
+}
+
+input[type=radio] {
+	margin-right: 0.8em;
+	margin-top: 0;
+}
+
+input[type=text] {
+	margin-top: 0;
+}
+
+input[type="password"] {
+	margin-top: 0;
+}
+
+input[type="password"] {
+	background-color: #FFFFFF;
+	border: 1px solid #BBBBBB;
+}
+
+.dd_Content {
+	margin-left: 2.5em;
+	font-size: 0.9em;
+}
+
+.pictoAide {
+	display: inline-block;
+	margin-left: 0.1em;
+	height: 18px;
+	width: 18px;
+}
+
+.pictoDl {
+	display: inline-block;
+	margin-left: 0.1em;
+	height: 15px;
+	width: 15px;
+}
+
+.lienChevron {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.chevron {
+	margin-right: 0.3em;
+	margin-left: 0.5em;
+}
+
+.tri {
+	text-decoration: none;
+}
+
+/*
+	*******************
+	****A SUPPRIMER****
+	*******SVP!********
+	*******************
+*/
+	/* Mise en forme pour les libellés au dessus des champs input (cf Virement - Saisie à la volée) */
+input.ptLibInput {
+	margin: 0;
+	font-size: inherit;
+}
+
+.ptLibInputIban {
+	margin: 0 !important;
+}
+
+.ptLibInput {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+	font-size: 7pt;
+}
+
+.libInputSpecial {
+	padding-top: 1.2em;
+}
+
+/*Fin mise en forme pour les libellés au dessus des champs input.*/
+
+#framePublication {
+	overflow: hidden;
+}
+
+ul,ol {
+	margin-bottom: 0;
+}
+
+ul ul {
+	list-style-type: square;
+}
+
+/* Pour centrer un element, de type text ou bloc (img compris). */
+.centrer {
+	text-align: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* Pour aligner a gauche un element, de type text ou bloc (img compris). */
+.gauche {
+	text-align: left;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* Pour aligner a droite un element, de type text ou bloc (img compris). */
+.droite {
+	text-align: right;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.legende {
+	color: #797979;
+}
+
+.leplus {
+	background-color: #85C2E4;
+	text-align: center;
+	width: 100%;
+	border-style: solid;
+}
+
+.xiti {
+	position: absolute;
+}
+
+/* ToolTip temp*/
+.autoTooltip,.tooltipAide,.tooltipWarning {
+	position: relative;
+	display: inline;
+}
+
+/*Pour supprimer les effets sur la font dans UWLM*/
+
+.pageTousMouvements .autoTooltip { 
+	line-height: normal;
+	font-weight: normal;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+}
+
+.autoTooltipIE {
+	z-index: 100;
+}
+
+.alignCenterRightToolTip{
+	float:right;
+}
+
+.tooltipContent, .tooltipContentWarning {
+	display: block;
+	visibility: hidden;
+	position: absolute;
+	background-color: #fff;
+	top: 0;
+	width: 320px;
+	z-index: 1001;
+	color: #1f368b;
+	border: 1px solid #000;
+	opacity: 0;
+	-webkit-transition-duration: 500ms;
+	-moz-transition-duration: 500ms;
+	-o-transition-duration: 500ms;
+	transition-duration: 500ms;
+	font-size:12px;
+}
+
+.tooltipRight {
+	left: 20px;
+}
+
+.tooltipLeft {
+	right: 22px;
+}
+
+.tooltipMiddle {
+	right: -320px;
+	margin-top: 40px;
+}
+div.autoTooltip:hover div.tooltipContent,div.tooltipAide:hover div.tooltipContentAide,div.tooltipWarning:hover div.tooltipContentWarning
+	{
+	visibility: visible;
+	opacity: 1;
+}
+
+.tooltipContent>*, .tooltipContentWarning>* {
+	padding: 5px;
+}
+
+.tooltipContent div,.tooltipContentAide div, .tooltipContentWarning div {
+	margin: 5px;
+}
+
+.tooltipContent h4,.tooltipContentAide h4,.tooltipContentWarning h4 {
+	color: #fff;
+	background-color: #000;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+@page :right {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+@media print {
+	header,footer,#validationFilterReportControl,.fondFooter,.headerPage {
+		display: none;
+	}
+	h1,body,th,td,a {
+		color: #000000;
+	}
+	a:link :after,a:visited :after,a:after {
+		display: none;
+	}
+}
+
+.showPrintBlock{
+	display:none;
+}
+
+.displayBlock {
+	display: block;
+}
+
+.displayNone {
+	display: none;
+}
+
+.alignRight {
+	float : right;
+}
+.tooltipContentAide {
+	display: block;
+	visibility: hidden;
+	position: absolute;
+	background: transparent url(/SCUW/images/toolTip/bg_tooltip.gif)
+		no-repeat scroll 0 0;
+	padding: 5px 0 5px 20px;
+	top: 0;
+	width: 200px;
+	left: 20px;
+	z-index: 50000;
+	opacity: 0;
+	-moz-background-clip: border;
+	-moz-background-inline-policy: continuous;
+	-moz-background-origin: padding;
+	-webkit-transition-duration: 500ms;
+	-moz-transition-duration: 500ms;
+	-o-transition-duration: 500ms;
+	transition-duration: 500ms;
+}
+
+.msgInfoPage {
+	float: right;
+	margin-bottom: 1em;
+	margin-top: 12px;
+}
+
+.attTitreTxt {
+	color: #FFCC00;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: -32px;
+	margin-left: 38px;
+	text-align: left;
+}
+
+.dematLibRech {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.dematMsgNoResult {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.dematTypeDocument {
+	width: 374px;
+}
+
+.scrollDiv {
+	overflow: auto;
+}
+
+/**********************************************************/
+/***  correction du bug d'allignement des champs  *********/
+/****  				de saise UWCC					******/
+/*********************************************************/
+.allignChamp1 {
+	height: 30px; 
+	line-height: 30px;
+}
+
+.allignChamp2 {
+	height: 30px; 
+	line-height: 22px;
+}
+
+hr.margBouton{
+	visibility: hidden;
+	margin: -1em 0 2em;	
+}
+
+hr.dematReleve{
+	visibility: hidden;
+}
+
+hr.espaceHr{
+	visibility: hidden;
+	margin-top: 4em;
+}
+
+/*Gestion de l'alignement*/
+.left{
+	text-align:left;
+}
+
+.center{
+	text-align:center;
+}
+
+.right{
+	text-align:right;
+}
+
+/*taille colonne tableau UWHG*/
+#tableHisto td{
+	width: 30%;	
+}
+
+/**********************************************/
+/****			web rules + picto		   ****/
+/**********************************************/
+.custom_error {				
+	display:none;
+	float: left;
+	width: 20px;
+}
+
+/**********************************************/
+/****			style des légendes		   ****/
+/**********************************************/
+
+table#legend_list {
+	border:1px solid #CCCCCC;
+	border-bottom:none;
+	margin-top:1em;
+}
+table#legend_list td, table#legend_list th {
+	font-size:11px;
+	padding:4px;
+	border-bottom:1px solid #CCCCCC;
+	vertical-align:middle;
+	color:#808080;
+}
+table#legend_list th {
+	font-weight:normal;
+}
+
+.legtitre {
+	color: #696969;
+	background-color: #d3d3d3;
+}
+.tblpage{
+	width:16px;
+}
+
+/**********************************************/
+/**** pour cacher les checkbox d'impressions **/
+/**********************************************/
+.showPrint{
+	display:none;
+}
+
+span#erreurPage{
+	display: none;
+}
+
+/***************************/
+/*Pour Rendez vous en ligne*/
+/***************************/
+div.tabContour{
+	border-bottom: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	border-left: 1px solid #CCCCCC;
+	float : right;
+}
+
+div#divRendezVous{
+	margin-top : 26px;
+}
+
+.tabContour hr{
+	margin: 0;
+}
+
+table.tabRdv {
+	border-collapse: collapse;
+}
+
+table.tabRdv tbody tr th, table.tabRdv tbody tr td{
+	border: 1px solid  #CCCCCC;
+	text-align: center;	
+}
+
+.bgTabRdv, .hoverTdRdv{
+	background-color: #ECEFF6;
+}
+
+table.tabRdv tbody tr:hover{
+	background-color: #ECEFF6;
+}
+.petiteIcone {
+	width : 14px;
+	height: 14px;
+	padding-right: 5px;
+} 
+bloc  {
+    background: none repeat 0 0 #F7F7F7;
+    border-color: -moz-use-text-color #CCCCCC #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    clear: both;
+    margin: 0;
+    overflow: auto;
+}
+.bloc .in  {
+    height: 100%;
+    padding: 0 0 0 16px;
+}
+.bloc .item {
+    background: none repeat 0 0 #E9EFEE;
+    float: left;
+    height: 180px;
+	margin: 8px 15px 8px 0;
+    overflow: auto;
+    padding: 0;
+    position: relative;
+    width: 175px;
+    -webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+}
+.item:hover {
+	background-color: #DCDCDC;
+	border-style: none;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+}
+item:after {
+	content:'' url(/SCUW/images/messages-bulle-pro.png);
+}
+.bloc .itemSeparateurVertical {
+    background-image: url(/SCUW/images/simulateurs/t_bg2.gif);
+    float: left;
+    height: 180px;
+	margin: 4px 4px 4px -12px;
+    overflow: auto;
+    padding: 0;
+    position: relative;
+    width: 10px;
+}
+.bloc .itemSeparateurHoriz {
+    background-image: url(/SCUW/images/simulateurs/t_bg2_horiz.gif);
+    height: 15px;
+    overflow: auto;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+.bloc .title {
+    height: 100%;
+    text-align: center;
+    padding :10px;
+}
+.bloc.middle  {
+     border: medium none;
+     text-align: center;
+}
+.bloc .titreMaj {
+	text-transform: uppercase;
+}
+.bloc .separateur {
+	background-image: url(/SCUW/images/simulateurs/t_bg2.gif) repeat scroll 0 0;
+	height: 180px;
+}
+
+/**
+	Operation en cours
+**/
+a.l_operationEnCours {
+	background: #C0C0C0;
+}
+
+/*Fix bug calendrier*/
+#ui-datepicker-div {
+	display : none;
+}
+
+/*
+	uwti
+*/
+.uwtiModeFrais .recapLabel, .uwepListeEffet{
+	width:20%
+}
+
+.uwtiModeFrais .recapValeur {
+	width:80%
+}
+
+.uwtiModeFrais .recap {
+	table-layout: fixed;
+    word-wrap: break-word;
+}
+
+/*
+	Permet de mettre le vertical align:middle pour les éléments suivants une frame de publication.
+*/
+.verticalMiddleframeChild iframe{
+	vertical-align:middle;	
+}
+
+/* Pour ajouter une colonne dans le tag de recap. */
+.uwasTooltipTd {
+	width : 20px;
+}
+
+/* class pour l'affichage des messages erreur de l'applet de signature et du tour de l'applet */
+.signNonGrise{
+	z-index: 1002; 
+	position: absolute;
+	width: auto;
+}
+.signNonGrise .signError{
+    -moz-border-radius: 7px 7px 7px 7px;
+	-webkit-border-radius: 7px 7px 7px 7px;
+	border-radius: 7px 7px 7px 7px;
+   	background-color : #ECEFF6;
+   	color:#FF0000;
+    font-weight: normal;
+    height: 77px;
+}
+.signNonGrise .tourDeLApplet{
+	margin-bottom:15px;
+	margin-left:15px;
+	padding-right:40px;
+    -moz-border-radius: 7px 7px 7px 7px;
+	-webkit-border-radius: 7px 7px 7px 7px;
+	border-radius: 7px 7px 7px 7px;
+   	background-color : #FFFFFF;
+   	width: 600px;;	
+}
+#divSignature{
+	margin:1em;
+}
+
+/* Pour ajouter une colonne dans le tag de recap. */
+.uwasTooltipTd {
+	width: 20px;
+}
+
+.floatRight{
+	float:right;
+}
+
+.floatLeft{
+	float:left;
+}
+     
+.annotation {
+    color: #797979;
+    font-size: 10px;
+    font-family: Verdana,Arial,Helvetica,Geneva,Swiss,SunSans-Regular;
+}
+
+.printDiv {
+	text-align: center;
+}
+
+.printDiv span{	
+	text-decoration: underline;
+	cursor: pointer;	
+}
+
+.contenuPopupMesComptes {
+	width : auto;
+}
+
+/* GENMAILS
+.contenuPopupChoixConseiller {
+	width : 350px;
+}
+*/ 
+
+.contenuPopupChequierDispo {
+	width : 695px;
+}
+
+#divMsgErreurDeconnexion{
+	width:100%;
+	text-align:center;
+}
+
+.zoneComVerticale{
+	height:400px;
+}
+
+#withoutEmail {
+	background: #FFFFFF url("/SCUW/images/gradient-enveloppe-NONE.png") repeat-x top;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFFFF", endColorstr="#AEACAC"); /* Pour IE seulement et mode gradient � linear */
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#AEACAC), color-stop(0.2, #FFFFFF));
+	background-image: -moz-linear-gradient(top center, #FFFFFF 20%, #AEACAC);
+	background-image: -o-linear-gradient(top, #FFFFFF, #AEACAC); /*uniquement en mode linear*/
+	text-underline : none;
+    border: 1px solid #868586;
+    -webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-o-border-radius: 6px;
+    border-radius: 6px 6px 6px 6px;
+    color: #444445;
+    font: bold 13px arial,sans-serif;
+    height: 15px;
+    width: 57px;
+    padding: 3px;
+    line-height: 15px;
+    position:relative;
+    float:left;
+}
+
+.withoutTextDecoration{
+	text-decoration : none;	
+}
+
+#withEmail {
+	font: bold 13px arial,sans-serif;
+    height: 15px;
+    width: 57px;
+    padding: 3px;
+    line-height: 15px;
+    position:relative;
+    float:left;
+    text-underline : none;
+}
+
+#enveloppeHome{
+	position: absolute;
+    right: 4px;
+    top: -1px;
+    width: 60%;
+}
+
+.commander {
+	display: none;	
+}
+
+/*
+	*******************
+	PARCOURS CLIENT
+	*******************
+*/
+.parcoursClient{
+	font-size: 17px;
+    float : left;
+    position : relative;
+    padding : 5px 10px;
+    width : 600 px;
+    font-family: Arial, Verdana, Helvetica, Geneva, Swiss, SunSans-Regular;
+}
+
+.parcoursClient fieldset {
+	float : left;
+	display: block;
+    position : relative;
+    width : 600px;
+    background-color: #DBDBDB;
+    border : none;
+    color: #494949;
+    font-size: 1.0em;
+   	font-weight: bold;
+   	padding: 7px 5px;
+    margin-bottom : 15px;
+   	line-height: 14px;
+}
+.parcoursClient fieldsettv {
+	float : left;
+	display: block;
+    position : relative;
+    width : 395px;
+    height : 294px;
+    background-color: #EFEFEF;
+    border : none;
+    color: #494949;
+    font-size: 1.0em;
+   	font-weight: bold;
+   	padding: 7px 5px;
+    margin-bottom : 15px;
+    margin-left : 103px;
+   	line-height: 14px;
+   	padding-top: 13px;
+   	padding-left: 13px; 
+   	padding-right: 13px;
+}
+.parcoursClientOpt{
+	font-size: 17px;
+    float : left;
+    position : relative;
+    padding : 0px 0px;
+    width : 100 px;
+    font-family: Arial, Verdana, Helvetica, Geneva, Swiss, SunSans-Regular;
+}
+.parcoursClientOpt fieldsetopt {
+	float : left;
+	display: block;
+    position : relative;
+    width : 210px;
+    height : auto;
+    background-color: #EFEFEF;
+    border : none;
+    color: #494949;
+    font-size: 0.7em;
+   	font-weight: bold;
+   	padding: 7px 5px;
+    margin-bottom : 15px;
+    margin-left : 60px;
+   	line-height: 14px;
+   	padding-top: 13px;
+   	padding-left: 13px; 
+   	padding-right: 13px;
+}
+
+.parcoursClient fieldset label {
+	color: #494949;
+    font-size: 0.7em; 
+   	font-weight: bold;
+    
+}
+
+.titreCGS {
+	margin-left: 22px;
+	margin-top: 40px;
+}
+
+.divLabelCGS {
+	margin-left: 10px;
+}
+
+#imgTelnoCGS{
+	background-image:url(/SCUW/images/parcours/fond-telephone.jpg); 
+/* 	background-size: 202px 374px; */
+	background-size: 170px 344px;
+	background-repeat:no-repeat; 
+	background-position: 67% 71%;
+	}	
+
+#imgTelCGS{
+	background-image:url(/SCUW/images/parcours/fond-telephone.jpg); 
+	background-size: 202px 374px;
+	background-repeat:no-repeat; 
+	background-position: 68% 95%;
+	}
+
+#imgCad{
+	background-image:url(/SCUW/images/parcours/fond-cadenas-ouvert.jpg); 
+	background-size: 146px 147px;
+	background-repeat:no-repeat; 
+	background-position: 59% 50%;
+	}
+
+#imgTelrecap{
+	background-image:url(/SCUW/images/parcours/fond-telephone.jpg); 
+	background-size: 202px 374px;
+	background-repeat:no-repeat; 
+	background-position: 68% 90%;
+	}	
+	
+#imgCadenas{
+	background-image:url(/SCUW/images/parcours/fond-cadenas.jpg); 
+	background-size: 230px 298px;
+	background-repeat:no-repeat; 
+	background-position: 52% 52%;
+	}	
+
+#imgTelconf{
+	background-image:url(/SCUW/images/parcours/fond-telephone.jpg); 
+	background-size: 170px 344px;
+	background-repeat:no-repeat; 
+	background-position: 67% 73%;
+	}
+
+#imgClavier{
+	background-image:url(/SCUW/images/parcours/fond-clavier.jpg); 
+	background-size: 221px 442px;
+	background-repeat:no-repeat; 
+	background-position: 52% 80%;
+	}
+
+#imgExclam{
+	background-image:url(/SCUW/images/parcours/fond-exclamation.jpg); 
+	background-size: 86px 180px;
+	background-repeat:no-repeat; 
+	background-position: right center;
+}
+#imgAccCgs{
+	background-image:url(/SCUW/images/parcours/fond-document.jpg); 
+	background-size: 273px 281px;
+	background-repeat:no-repeat; 
+	background-position: 72% 90%;
+	}
+
+.inputIdentifiantTel{
+	padding-left: 4em;
+	font-family: Arial, Verdana, Helvetica, Geneva, Swiss, SunSans-Regular;
+	font-size: 0.8em;
+}
+.inputIdentifiantPort{
+	padding-left: 2.7em;
+	font-family: Arial, Verdana, Helvetica, Geneva, Swiss, SunSans-Regular;
+	font-size: 0.8em;
+}
+
+.inputIdentifiantMail{
+padding-left: 4.1em;
+	font-family: Arial, Verdana, Helvetica, Geneva, Swiss, SunSans-Regular;
+	font-size: 0.8em;
+}
+
+#fieldLabelTel, #fieldLabelPort, #fieldLabelMail {
+	margin-bottom : 0.1em;
+	margin-top: 0.2em;
+	float:left;
+	width: 55%;
+	margin-top: 20px;
+}
+.divBlocArrondi{
+	border-radius: 0 0 0 50px;
+    -webkit-border-radius: 0 0 0 50px; 
+	-moz-border-radius: 0 0 0 50px; 
+	/*background: #EFEFEF;*/
+/* 	background: #EDEDED; */
+	padding: 2px;
+	padding-bottom : 20px;
+	-moz-box-shadow: -5px 5px 5px rgba(101,101,101,0.2);
+	-webkit-box-shadow: -5px 5px 5px rgba(101,101,101,0.2);
+	-o-box-shadow: -5px 5px 5px rgba(101,101,101,0.2);
+	box-shadow: -5px 5px 5px rgba(101,101,101,0.2);
+	overflow: hidden;
+	overflow: initial;
+	overflow: -moz-hidden-unscrollable;	
+}
+
+.buttonNxt {
+	background-color: #44CCF2;
+	color: white;
+	font: bold 11px arial, sans-serif;
+	height: 24px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-style: none;
+}
+
+.bouttonSubmit {
+	float: right;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.infosLegalesCNIL {
+	font-size: 9px;
+	color: #999999;
+	line-height: 1;
+	padding-top: 19px; 
+	padding-right: 14px;
+	text-align : justify;
+	margin-left: 10px;
+}
+
+.erreursaisi {
+	color: #FF0000;
+	font-weight: bold;
+	font-size: 12px;
+	margin-left: 7px;"
+}
+
+.gridGauche{
+	height: 300 px;
+	width: 300 px;
+}
+
+.textJustify{
+	text-align : justify;
+}
+
+/***************************************/
+/*******   		  DEMAT			********/
+/***************************************/
+
+.demat {
+	margin-top: 15px !important;
+}
+.demat input[type="button"], .demat input[type="submit"] {
+	font-size: 12px;
+	border-radius: 12px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	-o-border-radius: 12px;
+	height: 26px;
+	padding-left: 13px;
+	padding-right: 13px;
+	margin-right: 5px;
+}
+.demat h1, h2 {
+	margin-top: 0px;
+	margin-bottom: 8px;
+}
+.demat h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	font-family: Arial, Verdana, Helvetica, Geneva, Swiss, SunSans-Regular;
+}
+.titleLeftDemat {
+	float: left;
+}
+.titleRightDemat {
+	float: right;
+	text-align: right;
+}
+.familleLibelle {
+	font-size: 1.0em;
+	font-weight: bold;
+}
+.dematListeRecherche {
+	margin: 0 20px 0 0;
+    width: 20%;
+}
+.dematListeRechercheCtr {
+	margin: 0 20px 0 0;
+    width: 35%;
+}
+
+#btDematAdhererPar, #btDematAdhererPro {
+	margin: 15px 0 15px 0;
+}
+.dematTab {
+	margin-bottom: 25px;
+	padding-top: 5px;
+}
+.dematTab th {
+	text-align: center;	
+	font-size: 13px;
+	border-top: 1px solid #CCCCCC;
+}
+.dematTab-lastCell {
+	border-right: 1px solid #CCCCCC;
+}
+.dematTab td {
+	text-align: center;
+	border-bottom: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+}
+.dematTab tr {
+	text-align: center;
+}
+.dematTab-firstCell {
+	border-left: 1px solid #CCCCCC;
+}
+.dematTab-noCell {
+	border: 0px !important;
+}
+.dematTab-noCell input[type="button"] {
+	float: right;
+}
+.dematTab-fullLineTd {
+	text-align: left !important;
+	border-top: 1px solid #CCCCCC;
+}
+.dematTab-fullLineTd h4 {
+	line-height: 2;
+	margin-bottom: 0;
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 12px;
+}
+.dematTab-mediumCell {
+	width:10em;
+}
+.dematTab-smallCell {
+	width: 8em;
+}
+.dematTab-content {
+	padding:5px 0;
+}
+.demat-filAriane {
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0 !important;
+}
+.demat-filAriane li {
+	display: inline;
+    list-style: none;
+    margin-right: 2px;
+}
+.demat-filAriane a {
+	text-decoration: none;
+}
+.demat-title {
+	font-size: 2em;
+	font-weight: bold;
+}
+.dematRefCro {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.dematCro {
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+}
+.dematFamille {
+	margin-bottom: 15px;
+}
+.dematListContent {
+	padding-left: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	list-style-image: url(/SCUW/images/arrow-jaune.png);
+}
+.dematMessage {
+	height: 90px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.dematMessage img {
+	width: 10%;
+	float: left;
+}
+.dematMessage span {
+	width: 80%;
+	float: left;
+	margin: 25px 0 0 25px;
+}
+.searchDemat {
+	padding: 20px;
+	margin-bottom: 5px;
+	background-color: #ededed;
+}
+.searchDemat input[type="button"] {
+	float: right;
+	margin: 0 15px 0 15px;	
+}
+.searchDemat input[type="button"] {
+	float: right;
+	margin: 0 15px 0 15px;	
+}
+.dematFooterTab {
+	float: right;
+}
+.dematFooterTab p {
+	margin-bottom: 7px;
+}
+.dematFooterTab img {
+	width: 14px;
+}
+.dematTitleCR {
+	font-size: 1.3em;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+.downloadCol {
+	width: 80px;
+}
+.vosDerniersDoc {
+	
+	
+	color:#B244AC;
+}
+
+.leftQuitter {
+	text-align: left;
+}
+
+thead th {
+    background: none repeat scroll 0 0 #BF46B7;
+}
+
+.impressionCGS {
+	 align: right;
+	 margin-right:5px;
+	 text-align: right;
+}
+
+
+/** Test de surcharge d'un champ select (probl�me rencontr� selon les navigateurs) 
+.dematSelect select {
+	background: transparent;
+	width: 268px;
+	padding: 5px;
+	font-size: 16px;
+	line-height: 1;
+	border: 0;
+	border-radius: 0;
+	height: 34px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+ 	appearance: none;
+}
+.dematSelect {
+	width: 240px;
+	height: 34px;
+	overflow: hidden;
+	background: url(/SCUW/images/Demat/arrow-up-jaune.png) no-repeat right #ddd;
+	border: 1px solid #ccc;
+}
+*/
+
+#closePubAccueil {
+	 float: right;
+	 margin-right: 20px;
+}

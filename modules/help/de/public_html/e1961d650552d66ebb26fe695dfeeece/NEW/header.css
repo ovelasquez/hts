@@ -1,0 +1,389 @@
+
+#componentContainer {
+    min-height: 600px;
+}
+.siteContainer {
+    margin: auto;
+}
+#top {
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+    min-height: 62px;
+    min-width: 955px;
+}
+.headerPage {
+    font-family: 'Arial';
+    font-size: 13px;
+    margin: auto;
+}
+.headerPage .logoLCL {
+    float: left;
+    height: 70px;
+}
+.headerPage ul {
+    list-style-type: none;
+    margin: 0;
+}
+.headerPage ul li {
+    padding-bottom: 0;
+}
+.dateDerConnex {
+    font-family: 'Arial';
+    font-size: 13px;
+    padding-top: 1px;
+}
+#dateDerConnex a:hover{
+ text-decoration:underline;
+}
+.headerPage ul a img {
+    vertical-align: text-bottom;
+}
+.headerPage ul li a {
+    text-decoration: none;
+}
+.headerPage ul li a:hover {
+    cursor: pointer;
+}
+#divLogo {
+    margin-left: -21px;
+    position: absolute;
+}
+#sousHeaderContent1 {
+    margin-left: 123px;
+}
+#nomClient > p {
+    font-size: 13px;
+}
+#heureMetropole {
+    font-size: 13px;
+    margin-bottom: 2px;
+    margin-top: -4px;
+    padding-top: 0;
+}
+#sousHeaderContent1 ul li {
+    font-size: 13px;
+}
+#sousHeaderContent1 ul li a {
+    font-family: 'Arial';
+    font-size: 13px;
+}
+
+#libelleDeConnexion a {
+ text-decoration:none;
+}
+#libelleDeConnexion a:hover span {
+ text-decoration:underline;
+}
+
+.listeServicesHeader {
+    height: 30px;
+    margin-left: -23px;
+    margin-top: 13px;
+    padding: 0;
+    width: 287px;
+}
+.listeServicesHeader ul li {
+    float: left;
+    list-style-type: none;
+    margin: 0 0 0 -1px;
+    padding: 0;
+    text-align: center;
+}
+.listeServicesHeader ul li img {
+    line-height: 22px;
+    padding: 0 25px;
+    text-decoration: none;
+}
+
+#containerMenuPerso {
+    background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #e9e9e9 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e9e9e9));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #e9e9e9 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #e9e9e9 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #e9e9e9 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #e9e9e9 100%);
+	-webkit-box-shadow: 0px 7px 5px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 7px 5px -2px rgba(0,0,0,0.75);
+	box-shadow: 0px 7px 5px -2px rgba(0,0,0,0.75);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e9e9e9', GradientType=0 );
+    border-left: 1px solid #E8E8E8;
+    border-right: 1px solid #E8E8E8;
+    border-style: none solid solid;
+    border-width: 0 0 10px;
+    display: none;
+    margin-left: -83px;
+    margin-top: 0;
+    padding-bottom: 25px;
+    padding-left: 31px;
+    padding-top: 32px;
+    position: absolute;
+    width: 230px;
+    z-index: 99999;
+}
+#menuEspacePerso, #menuEspacePerso ul {
+    line-height: 21px;
+    list-style: none outside none;
+    margin: 0;
+}
+#menuEspacePerso li h3 {
+    font-family: arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+#menuEspacePerso li {
+    clear: both;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: normal;
+    text-align: left;
+}
+#menuEspacePerso li a {
+    padding-left: 6px;
+}
+
+#menuEspacePerso a:hover {
+ text-decoration:underline;
+ cursor: pointer;
+}
+
+.flecheEspacePerso {
+    cursor: pointer;
+    left: 80px;
+    padding: 0;
+    position: absolute;
+    text-decoration: none;
+    top: 0;
+    z-index: 100000;
+   
+}
+.croixCloseMenu {
+    cursor: pointer;
+    left: 213px;
+    position: absolute;
+    text-decoration: none;
+    top: 11px;
+    z-index: 100000;
+}
+.imgItem {
+    float: left;
+    height: 8px;
+    margin-top: 5px;
+    width: 6px;
+}
+#sousHeaderContent2 {
+    float: left;
+    margin-left: 27px;
+    width: 530px;
+}
+#lienVersSousMenuEspacePerso img:hover, #lienServiceMessagerie img:hover, #lienServicePtsFidelite img:hover{
+    cursor: pointer;
+}
+#lienVersSousMenuEspacePerso span:hover, #lienServiceMessagerie span:hover, #lienServicePtsFidelite span:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+#lienVersSousMenuEspacePerso #imageEspacePerso:hover span{
+	text-decoration: underline;
+}
+#lienServicePtsFidelite:hover span{
+	text-decoration: underline;
+}
+#lienServiceMessagerie:hover span{
+	text-decoration: underline;
+}
+
+#nbreMsgNonLus {
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: normal;
+    margin-left: 44px;
+    margin-top: -37px;
+    position: absolute;
+    text-align: center;
+    width: 17px;
+    color:#ffffff;
+}
+#labelVotreMsg {
+    margin-left: -14px;
+}
+#imgCtctMaBq {
+    margin-top: 1px;
+    vertical-align: text-top;
+}
+#imgChevronNavCtcMaBq {
+    float: right;
+    margin-right: 13px;
+    margin-top: -35px;
+}
+#imgCroixCtcMaBq {
+    cursor: pointer;
+    margin-left: 222px;
+    margin-top: -41px;
+    position: absolute;
+    text-decoration: none;
+    z-index: 100000;
+}
+.itemSousTitreMenuMaBq {
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: normal;
+}
+.itemTitreMenuMaBq {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+#itemNomContactMaBq {
+    margin-left: 58px;
+    margin-top: -42px;
+}
+.itemImageTitreMenuMaBq {
+    margin-left: 4px;
+}
+.itemImageSousTitreMenuMaBq {
+    margin-left: 36px;
+}
+.itemTitreMenuMaBq span {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+}
+#divContainerContacterMaBq {
+    height: 55px;
+    margin-top: -22px;
+}
+#boutonContacterMaBqMenu {
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #e9e9e9 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e9e9e9));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #e9e9e9 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #e9e9e9 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #e9e9e9 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #e9e9e9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e9e9e9', GradientType=0 );
+    background: linear-gradient(to bottom, #FFFFFF 0%, #E9E9E9 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #E8E8E8;
+    float: right;
+    height: 55px;
+    margin-right: 5px;
+    margin-top: -4px;
+    padding: 0;
+    width: 250px;
+}
+
+
+#contacterMaBqMenu {
+	background: #ffffff;
+	background: -moz-linear-gradient(top, #ffffff 0%, #e9e9e9 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #e9e9e9));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #e9e9e9 100%);
+	background: -o-linear-gradient(top, #ffffff 0%, #e9e9e9 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%, #e9e9e9 100%);
+	background: linear-gradient(to bottom, #ffffff 0%, #e9e9e9 100%);
+	-webkit-box-shadow: 0px 7px 5px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 7px 5px -2px rgba(0,0,0,0.75);
+	box-shadow: 0px 7px 5px -2px rgba(0,0,0,0.75);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e9e9e9', GradientType=0 );
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: linear-gradient(to bottom, #FFFFFF 0%, #E9E9E9 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: #E8E8E8;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 0 10px !important;
+    display: none;
+    margin-left: 273px;
+    margin-top: -4px;
+    position: absolute;
+    width: 252px;
+    z-index: 99999;
+}
+
+#libelleEnvoieMsgContactMaBq {
+    margin-left: 73px;
+    margin-top: -30px;
+}
+
+#libelleRdvContactMaBq {
+    margin-left: 76px;
+    margin-top: -35px;
+}
+#libelleHoraireOuverture {
+    margin-left: 56px; 
+    margin-top: -48px;
+}
+#sousContentAgence {
+    margin-left: 60px;
+    margin-top: -48px;
+}
+#sousContentHoraire {
+    margin-left: 1px;
+    margin-top: 8px;
+}
+#listeItemHoraire {
+    margin-left: 15px; 
+    margin-top: 14px;
+}
+#sousItem1 {
+    margin-left: 1px;
+    margin-top: 1px;
+}
+#sousItem2 {
+    margin-left: 60px;
+    margin-top: 0;
+}
+#sousItem3 {
+    margin-left: -13px;
+    margin-top: 6px;
+}
+#sousItem3:hover, #sousItem3:hover img+p {
+ 	text-decoration: underline;
+ 	cursor: pointer;	
+}
+#sousItem4 {
+    margin-left: -16px;
+    margin-top: 9px;
+}
+#sousItem4:hover, #sousItem4:hover img+p {
+ 	text-decoration: underline;
+ 	cursor: pointer;	
+}
+.pointeur:hover  {
+ cursor:pointer;
+}
+
+#sousItem5 {
+    border-bottom: 1px solid #E8E8E8;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+#sousItem6 {
+    margin-left: -2px;
+    margin-top: 0;
+    padding-right:2px;
+}
+#sousItem7 {
+    margin-left: 0;
+    margin-top: 12px;
+    padding-right:2px;
+}
+
+#headerPageStatique {
+    margin-top: 0;
+}
+
+.separateur {
+    line-height: 22px;
+    margin: 13px 0 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.msgErreurAgence {
+    margin-left: 41px;
+}
